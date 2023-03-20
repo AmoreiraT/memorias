@@ -90,7 +90,7 @@ export const Vdivider = styled(Divider)`
 `;
 
 export const CompanyName = styled.span`
-  ${typography.m2.body[1]}
+  font-family: 'Memories';
   color: ${({ theme }) => theme.color.hsbc.content.on_dark_01};
   white-space: nowrap;
   display: block;

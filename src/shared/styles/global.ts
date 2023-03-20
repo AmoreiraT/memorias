@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import * as typography from '@shared/styles/typography';
+import Memories from '@assets/fonts/Memories.ttf';
 import UniversNextMd from '@assets/fonts/hsbc/UniversNextforHSBCW29-Md.ttf';
 import UniversNextRg from '@assets/fonts/hsbc/UniversNextforHSBCW29-Rg.ttf';
 import UniversNextThin from '@assets/fonts/hsbc/UniversNextforHSBCW29-Thin.ttf';
@@ -7,6 +8,11 @@ import UniversNextThin from '@assets/fonts/hsbc/UniversNextforHSBCW29-Thin.ttf';
 const styled = { createGlobalStyle };
 
 export const GlobalStyle = styled.createGlobalStyle`
+  @font-face {
+    font-family: 'Memories';
+    src: local('Memories.ttf'), url(${Memories}) format('truetype');
+    /* font-weight: 600; */
+  }
   @font-face {
     font-family: 'Univers Next for HSBC W29 Rg';
     src: local('UniversNextforHSBCW29-Rg.ttf'),

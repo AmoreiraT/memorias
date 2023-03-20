@@ -18,7 +18,6 @@ export function Home() {
   return (
     <S.Wrapper>
       <Header companyName="Memorias" />
-      <TopNavBar title={title} />
       <PageTitle title={title}>{pageTitleElement} </PageTitle>
       <S.Main>
         <S.Content>

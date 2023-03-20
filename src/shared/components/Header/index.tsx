@@ -96,15 +96,6 @@ export function Header({ companyName }: HeaderProps) {
         <S.CompanyName> {companyName}</S.CompanyName>
       </S.BtnLogo>
       <S.ActionsContainer>
-        {/* <S.Vdivider orientation="vertical" flexItem />
-        <S.StyledBadge badgeContent="4" variant="dot">
-          <Alert
-            width="1.8rem"
-            height="1.8rem"
-            color={theme.color.hsbc.content.on_dark_01}
-            fill={theme.color.hsbc.content.on_dark_01}
-          />
-        </S.StyledBadge> */}
         <S.Vdivider orientation="vertical" flexItem />
         <MenuSelect
           anchorEl={anchorHelp}
@@ -114,33 +105,6 @@ export function Header({ companyName }: HeaderProps) {
           iconOpen={<HelpActive />}
         />
         <S.Vdivider orientation="vertical" flexItem />
-        <MenuSelect
-          anchorEl={anchorEl}
-          labelButton={labelButton}
-          onClick={handleClick}
-          onClose={handleClose}
-          variant="tertiary"
-        >
-          <MenuItem onClick={handleClickItem} disableRipple>
-            {english}
-          </MenuItem>
-          <MenuItem onClick={handleClickItem} disableRipple>
-            {portuguese}
-          </MenuItem>
-          <MenuItem onClick={handleClickItem} disableRipple>
-            {spanish}
-          </MenuItem>
-        </MenuSelect>
-        <S.Vdivider orientation="vertical" flexItem />
-        <Typography
-          fontWeight={theme.typography.m2.body.body1.fontWeight}
-          fontFamily={theme.typography.m2.body.body1.fontFamily}
-          fontSize={theme.typography.m2.body.body1.fontSize}
-          color={theme.color.hsbc.content.on_dark_01}
-          width="max-content"
-        >
-          Mateus Coutinho
-        </Typography>
       </S.ActionsContainer>
     </S.Header>
   );
