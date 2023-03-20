@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom/client';
-import { StrictMode } from 'react';
+import { StrictMode, useEffect } from 'react';
 import { QueryClient, QueryClientProvider } from 'react-query';
 // theme
 import { GlobalStyle } from '@shared/styles/global';
@@ -11,6 +11,7 @@ import { Routes } from './routes';
 
 // Import i18n.ts
 import './i18n';
+import { setupFirebase } from './core/services/firebase';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -24,6 +25,8 @@ const queryClient = new QueryClient({
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+
 root.render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>

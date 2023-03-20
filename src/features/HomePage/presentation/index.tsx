@@ -11,10 +11,14 @@ import { usePageTitle } from '@shared/components/PageTitle/state/index';
 import { TopNavBar } from '@shared/components/TopNavBar';
 
 import * as S from './styles';
+import { useEffect } from 'react';
+import { setupFirebase } from '../../../core/services/firebase';
 
 export function Home() {
   const { title, pageTitleElement } = usePageTitle();
-
+useEffect(() => {
+  setupFirebase();
+}, [])
   return (
     <S.Wrapper>
       <Header companyName="Memorias" />
