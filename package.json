@@ -7,7 +7,7 @@
     "dev": "vite --host",
     "build": "tsc && vite build",
     "preview": "vite preview --host",
-    "build:ci": "pnpm run build:prod && pnpm run scully:ci",
+    "build:ci": "pnpm run build && pnpm run scully:ci",
     "scully:ci": "scully -- --host='0.0.0.0' --scanRoutes --serverTimeout=60000",
     "lint": "eslint .{ts,jsxts,tsx,json}",
     "lint:fix": "eslint --fix 'src/**/*.{ts,tsx}'",
