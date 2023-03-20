@@ -29,5 +29,3 @@ export function Home() {
     </S.Wrapper>
   );
 }
-
-export * from '../commands/home-command';
