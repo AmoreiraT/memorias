@@ -93,8 +93,6 @@ export function Header({ companyName }: HeaderProps) {
   return (
     <S.Header id="header">
       <S.BtnLogo onClick={() => navigate('/')}>
-        <S.Logo src={logoHeader} id="header-logo" />
-        <S.Vdivider orientation="vertical" flexItem />
         <S.CompanyName> {companyName}</S.CompanyName>
       </S.BtnLogo>
       <S.ActionsContainer>
