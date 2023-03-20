@@ -1,0 +1,33 @@
+import { Outlet } from 'react-router-dom';
+// domain
+// state
+// shared components
+import { PageTitle } from '@shared/components/PageTitle';
+// error page
+// components
+import { Header } from '@shared/components/Header';
+// styles
+import { usePageTitle } from '@shared/components/PageTitle/state/index';
+import { TopNavBar } from '@shared/components/TopNavBar';
+
+import * as S from './styles';
+
+export function Home() {
+  const { title, pageTitleElement } = usePageTitle();
+
+  return (
+    <S.Wrapper>
+      <Header companyName="Cards management" />
+      <TopNavBar title={title} />
+      <PageTitle title={title}>{pageTitleElement} </PageTitle>
+      <S.Main>
+        <S.Content>
+          <Outlet />
+        </S.Content>
+        {/* <PageTitle title="Eu serei um footer" /> */}
+      </S.Main>
+    </S.Wrapper>
+  );
+}
+
+export * from '../commands/home-command';

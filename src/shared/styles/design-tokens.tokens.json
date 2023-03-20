@@ -1,0 +1,2401 @@
+{
+  "color": {
+    "hsbc": {
+      "content": {
+        "on_dar_01": {
+          "description": "",
+          "type": "color",
+          "value": "#ffffffff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:0fc77e7ace38e1757e44c7fc960d821676375144,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "on_light 01": {
+          "description": "",
+          "type": "color",
+          "value": "#333333ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:e3e0b900ce166d11d13f0a63efcaa3e6b30aeb05,",
+              "exportKey": "color"
+            }
+          }
+        }
+      },
+      "rag": {
+        "green (success)": {
+          "description": "",
+          "type": "color",
+          "value": "#00847fff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:a89f7cc65b298a46ed8c77ca5bdb14b98dbac863,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "red (error)": {
+          "description": "",
+          "type": "color",
+          "value": "#a8000bff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:3557f36d03d84d8539c5b357fed7b6848fd309f4,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "blue (neutral)": {
+          "description": "",
+          "type": "color",
+          "value": "#305a85ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:e06597aed82a37b5f669d1cde6450335074256b9,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "blue tint (neutral)": {
+          "description": "",
+          "type": "color",
+          "value": "#ebeff4ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:d88cf2a290ada16b42c254d97cf7cf1266c3b855,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "green tint (success)": {
+          "description": "",
+          "type": "color",
+          "value": "#e5f2f2ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:2f6ba80f88be08c2a95a381ccbe3e0515dbf12bb,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "amber tint (warning)": {
+          "description": "",
+          "type": "color",
+          "value": "#fff8eaff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:3b592f9d555efb86b5b9108a4bd7e63fa22380db,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "red tint (error)": {
+          "description": "",
+          "type": "color",
+          "value": "#f9f2f3ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:af464a3512ddbdef8aa91bd7062a22cf2e08f703,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "amber (warning)": {
+          "description": "",
+          "type": "color",
+          "value": "#ffbb33ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:510afb1cc2469809e5d60e933ded3100c9a87d8c,",
+              "exportKey": "color"
+            }
+          }
+        }
+      },
+      "brand": {
+        "01 (hsbc red)": {
+          "description": "",
+          "type": "color",
+          "value": "#db0011ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:4747d7dab922d05559f7600b9f0a77a55357ecd3,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "02 (black)": {
+          "description": "",
+          "type": "color",
+          "value": "#000000ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:e859944d3c34f896b78e73f1d19dbca11dbf9927,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "03 (white)": {
+          "description": "",
+          "type": "color",
+          "value": "#ffffffff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:df27b2bfe9f48269ff7a24fc464b00bb4c2407f0,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "04 (light pearl)": {
+          "description": "",
+          "type": "color",
+          "value": "#f3f3f3ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:6646637a67821d48091389a1d746405d992d26bf,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "05 (pearl)": {
+          "description": "",
+          "type": "color",
+          "value": "#edededff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:f1757f5cf93dd62276dad07b704f1acb07638213,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "06 (silver)": {
+          "description": "",
+          "type": "color",
+          "value": "#d7d8d6ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:427a78d5426d49b367d39cedad64dfcd5e63b5f0,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "07 (pewter)": {
+          "description": "",
+          "type": "color",
+          "value": "#767676ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:d80b34b4b2af5d4bd134b2c3cd0a57ceb8ca0032,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "08 (charcoal)": {
+          "description": "",
+          "type": "color",
+          "value": "#333333ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:41e6e5bc186b110c241d14be57d11a5738105fc3,",
+              "exportKey": "color"
+            }
+          }
+        }
+      },
+      "interaction_default": {
+        "05": {
+          "description": "",
+          "type": "color",
+          "value": "#db0011ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:13e3fdc8462aad0817b36372a77d80972d4a89a6,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "06": {
+          "description": "",
+          "type": "color",
+          "value": "#af000dff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:ae9574eaf3598240b7e59647ad08f14b2ba1d92e,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "07": {
+          "description": "",
+          "type": "color",
+          "value": "#83000aff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:6cfe995cbdd5befd2bfbb4ff4eef8fbe0cd2d699,",
+              "exportKey": "color"
+            }
+          }
+        }
+      },
+      "data visualisation": {
+        "01 (dus_pearl)": {
+          "description": "",
+          "type": "color",
+          "value": "#6d8ea6ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:73b77ac25b0ad985710157794691e99ba38a78b1,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "02 (jade)": {
+          "description": "",
+          "type": "color",
+          "value": "#14a5abff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:4bc314820a3e30fe82dbf53ee561f1a12385f483,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "03 (emerald)": {
+          "description": "",
+          "type": "color",
+          "value": "#4fa62fff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:c4a252fa668146e93340cc7c1e70d19ac00d059d,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "04 (amber)": {
+          "description": "",
+          "type": "color",
+          "value": "#e67310ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:28951fb7338f2e199d2ba9781290c61ba3e46c28,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "05 (ruby)": {
+          "description": "",
+          "type": "color",
+          "value": "#d71e8dff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:436a0e8e268a5b0a8edd9413c0731ebfb18215eb,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "06 (iolite)": {
+          "description": "",
+          "type": "color",
+          "value": "#834effff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:c0d59ec9e767e2cefc7d03efcbcc0a684e0f8d2a,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "07 (sapphire)": {
+          "description": "",
+          "type": "color",
+          "value": "#2580dcff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:b40f89850e6a6ac12cc95c26c86160e48ee267a6,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "08 (dar_pearl)": {
+          "description": "",
+          "type": "color",
+          "value": "#4d6474ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:e9f092d4b261017045e9fd1af82fc56e12e82f73,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "09 (dar_jade)": {
+          "description": "",
+          "type": "color",
+          "value": "#008580ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:c38511e345689398d46a7812b4caa865afdab19e,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "10 (dar_emerald)": {
+          "description": "",
+          "type": "color",
+          "value": "#34880fff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:bd49c0da55a88a4ee39535d838845a5a704c2c1f,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "11 (dar_amber)": {
+          "description": "",
+          "type": "color",
+          "value": "#bf610fff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:280a2955738e33a30e076128f11f44629624c302,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "12 (dar_ruby)": {
+          "description": "",
+          "type": "color",
+          "value": "#a8166dff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:d2f495b42c5f177fd59596d597eddf186f58a2da,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "13 (dar_iolite)": {
+          "description": "",
+          "type": "color",
+          "value": "#6637d5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:ae10344017536ceffcb0aaf833dd2300c9dc4dc7,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "14 (dar_sapphire)": {
+          "description": "",
+          "type": "color",
+          "value": "#1564b5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:a5234407fd69dfdfa480e90652cfd93f547537bc,",
+              "exportKey": "color"
+            }
+          }
+        }
+      }
+    },
+    "cmb": {
+      "interaction_default": {
+        "01": {
+          "description": "",
+          "type": "color",
+          "value": "#ffffffff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:5f1f34936f7f4f44b256b65969a552d3d319b82a,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "02": {
+          "description": "",
+          "type": "color",
+          "value": "#f1f3f4ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:3a19a5b0008242a0e516045512dd0c3d3cce5038,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "03": {
+          "description": "",
+          "type": "color",
+          "value": "#e4e8eaff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:32e369ff7735ee611f3b72ca796b428545ee88d5,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "04": {
+          "description": "",
+          "type": "color",
+          "value": "#c9d0d5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:52cddea4bf6fe70ad537ae449985d0e532a1188d,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "05": {
+          "description": "",
+          "type": "color",
+          "value": "#4d6474ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:ab1b93af34fab634ab44595e58d1e227a3883b1a,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "06": {
+          "description": "",
+          "type": "color",
+          "value": "#3e505dff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:1f08c0bdaa436672c77d4132f5ebaf5ceadbc147,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "07": {
+          "description": "",
+          "type": "color",
+          "value": "#1d262cff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:c03c098e188508c9ff68d4329fb4ac25861e9a20,",
+              "exportKey": "color"
+            }
+          }
+        }
+      },
+      "sub-brand": {
+        "01 (light slate)": {
+          "description": "",
+          "type": "color",
+          "value": "#4d6474ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:297fe22333f3f784a57a7c918c1628ed35c0bbbb,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "02 (slate)": {
+          "description": "",
+          "type": "color",
+          "value": "#3e505dff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:340cb4dc5b2cbbacc7747d8c7e852e2496f51cda,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "03 (dar_slate)": {
+          "description": "",
+          "type": "color",
+          "value": "#253038ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:caa34934263c501ac4648be9b95a1980193e6792,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "04 (corporate slate)": {
+          "description": "",
+          "type": "color",
+          "value": "#1d262cff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:27f31ef1de83eaca48706ca46174c55c7b829467,",
+              "exportKey": "color"
+            }
+          }
+        }
+      },
+      "interaction_defined": {
+        "01": {
+          "description": "",
+          "type": "color",
+          "value": "#ffffffff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:ec9e5e0ad330a4fce67f58ece6771180cfa4c003,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "02": {
+          "description": "",
+          "type": "color",
+          "value": "#ebf5f5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:7c9c07d34524352c32acecee5cacda9e6bec2f66,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "03": {
+          "description": "",
+          "type": "color",
+          "value": "#d9edecff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:42e6b55500c4f3bfc6b24b20021837b7668e2d4f,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "04": {
+          "description": "",
+          "type": "color",
+          "value": "#b2dad8ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:8a0282364fef39087916591d438f77ada2490bde,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "05": {
+          "description": "",
+          "type": "color",
+          "value": "#005e59ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:06640d75d7618bfe325e75c43fb3335192de1d57,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "06": {
+          "description": "",
+          "type": "color",
+          "value": "#004f4bff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:394dd9eb285a2b8d3300e8f4925c022572715c86,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "07": {
+          "description": "",
+          "type": "color",
+          "value": "#00847fff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:6b054d8e9cdd6ae7ffb79af9aeca191beef42e93,",
+              "exportKey": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "grid": {
+    "m2": {
+      "small": {
+        "description": "extra small, small, medium small",
+        "type": "custom-grid",
+        "value": {
+          "pattern": "columns",
+          "gutterSize": 16,
+          "alignment": "stretch",
+          "count": 12,
+          "offset": 16
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:42b568f55983d1cfad5f2561b6e96a9b8774f7d7,",
+            "exportKey": "grid"
+          }
+        }
+      },
+      "large": {
+        "description": "medium, large",
+        "type": "custom-grid",
+        "value": {
+          "pattern": "columns",
+          "gutterSize": 20,
+          "alignment": "stretch",
+          "count": 12,
+          "offset": 20
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:3778d44e3f04524dbcb9cbc07f662a16819e87ad,",
+            "exportKey": "grid"
+          }
+        }
+      },
+      "extra large": {
+        "description": null,
+        "type": "custom-grid",
+        "value": {
+          "pattern": "columns",
+          "gutterSize": 24,
+          "alignment": "stretch",
+          "count": 12,
+          "offset": 24
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:dffdecdf4b63edcb1f9b521eda3a10438726d6a0,",
+            "exportKey": "grid"
+          }
+        }
+      }
+    }
+  },
+  "font": {
+    "m2": {
+      "headline": {
+        "headline 1": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 96,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Md",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -1.5,
+            "lineHeight": 112,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:108d941ac165ec53e547c9776f95c7ce48f9806d,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "headline 2": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 60,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Md",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.5,
+            "lineHeight": 72,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:e3ec0c6069edc08c663d9418ddeefb7554c0b2e9,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "headline 3": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 48,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Md",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 56,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:cc47460b6ffa36eeb39cb3a8141bfd34d1a50c35,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "headline 4": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 34,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Md",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 36,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:560b9e00a6a65e60dd26746eb83b94abb9eec3d3,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "headline 5": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 24,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Md",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0.18,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:196c91b9be620c8c9c775befda0f64edeab69f62,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "headline 6": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 20,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Md",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0.15,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:c1e4d33ed9f942259f0a5fbe0189c490f892cb8d,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "subtitle 1": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Md",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0.15,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:0f8262b0e27fc851e02ad3e3e31486d08bf2708f,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "subtitle 2": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Md",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0.1,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:121b4afa523c6fa1d1b14828199c0acb28690691,",
+              "exportKey": "font"
+            }
+          }
+        }
+      },
+      "body": {
+        "body 1": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Rg",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0.5,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:fd76d6aa28b4e32d334e3af302ba2bcc389b4723,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "body 2": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Rg",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0.25,
+            "lineHeight": 20,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:aa01db0dc32ca614833ba04019b3ad3dcdfdeb8c,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "caption": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 12,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Rg",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0.4,
+            "lineHeight": 16,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:0b7e527ff85ad5598f7d6a2103647665f9060fa8,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "overline": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 10,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Md",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 1.5,
+            "lineHeight": 16,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "uppercase"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:4bff0332cb1bf30f39afab5d1e2bf747d3d1d99d,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "divider  1": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Thin",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:a2664fb34405dc02851f51693917d30521b5eae1,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "divider 2": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Thin",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 18,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 9,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:60ef7908e0564bf54a0a6d90180058acb5ba3b3a,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "divider 3": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 12,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Thin",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 16,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 8,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:6745b2869c31ece9b0913b68f4d8388d23d4491a,",
+              "exportKey": "font"
+            }
+          }
+        }
+      },
+      "label": {
+        "medium": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Md",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 16.8,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:959ffb42860b30ae15ae60a771c1663d39d46c27,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "small": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 12,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Md",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 16,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 8,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:3f929d3160ae7037966d34a7469017777401df0b,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "large": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Univers Next for HSBC W29 Md",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:1b1fe78457ed671400e60f9a763008c9cead7338,",
+              "exportKey": "font"
+            }
+          }
+        }
+      }
+    }
+  },
+  "effect": {
+    "m2": {
+      "00 dp": {
+        "description": null,
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 4,
+          "color": "#00000040",
+          "offsetX": 0,
+          "offsetY": 4,
+          "spread": 0
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:ed6cf1b320a186896a84cae85c0916f98aa9931e,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "01 dp": {
+        "0": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 3,
+            "color": "#00000033",
+            "offsetX": 0,
+            "offsetY": 1,
+            "spread": 0
+          }
+        },
+        "1": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 1,
+            "color": "#0000001f",
+            "offsetX": 0,
+            "offsetY": 2,
+            "spread": 0
+          }
+        },
+        "2": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 1,
+            "color": "#00000024",
+            "offsetX": 0,
+            "offsetY": 1,
+            "spread": 0
+          }
+        },
+        "description": null,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:bf5cb5b024d411566d809db4b400ddc7f97374fe,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "02 dp": {
+        "0": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 5,
+            "color": "#00000033",
+            "offsetX": 0,
+            "offsetY": 1,
+            "spread": 0
+          }
+        },
+        "1": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 1,
+            "color": "#0000001f",
+            "offsetX": 0,
+            "offsetY": 3,
+            "spread": 0
+          }
+        },
+        "2": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 2,
+            "color": "#00000024",
+            "offsetX": 0,
+            "offsetY": 2,
+            "spread": 0
+          }
+        },
+        "description": null,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:902de8fd41488eae5778652379ced7b77a0dfb09,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "03 dp": {
+        "0": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 8,
+            "color": "#00000033",
+            "offsetX": 0,
+            "offsetY": 1,
+            "spread": 0
+          }
+        },
+        "1": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 3,
+            "color": "#0000001f",
+            "offsetX": 0,
+            "offsetY": 3,
+            "spread": 0
+          }
+        },
+        "2": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 4,
+            "color": "#00000024",
+            "offsetX": 0,
+            "offsetY": 3,
+            "spread": 0
+          }
+        },
+        "description": null,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:c92307f7cf515fecdcf4ccba70a997fd0b3a4789,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "04 dp": {
+        "0": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 4,
+            "color": "#00000033",
+            "offsetX": 0,
+            "offsetY": 2,
+            "spread": 0
+          }
+        },
+        "1": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 10,
+            "color": "#0000001f",
+            "offsetX": 0,
+            "offsetY": 1,
+            "spread": 0
+          }
+        },
+        "2": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 5,
+            "color": "#00000024",
+            "offsetX": 0,
+            "offsetY": 4,
+            "spread": 0
+          }
+        },
+        "description": null,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:8fc7a7018b8fa3cdc3855914e62357b918921994,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "06 dp": {
+        "0": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 5,
+            "color": "#00000033",
+            "offsetX": 0,
+            "offsetY": 3,
+            "spread": 0
+          }
+        },
+        "1": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 18,
+            "color": "#0000001f",
+            "offsetX": 0,
+            "offsetY": 1,
+            "spread": 0
+          }
+        },
+        "2": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 10,
+            "color": "#00000024",
+            "offsetX": 0,
+            "offsetY": 6,
+            "spread": 0
+          }
+        },
+        "description": null,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:a3ac855bdee8fbb3c3dc5f1d815cd3c222c15f0d,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "08 dp": {
+        "0": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 5,
+            "color": "#00000033",
+            "offsetX": 0,
+            "offsetY": 5,
+            "spread": 0
+          }
+        },
+        "1": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 14,
+            "color": "#0000001f",
+            "offsetX": 0,
+            "offsetY": 3,
+            "spread": 0
+          }
+        },
+        "2": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 10,
+            "color": "#00000024",
+            "offsetX": 0,
+            "offsetY": 8,
+            "spread": 0
+          }
+        },
+        "description": null,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:0b77d32ec35ce463fa0a936e82696f077f49d0c8,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "12 dp": {
+        "0": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 8,
+            "color": "#00000033",
+            "offsetX": 0,
+            "offsetY": 7,
+            "spread": 0
+          }
+        },
+        "1": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 22,
+            "color": "#0000001f",
+            "offsetX": 0,
+            "offsetY": 5,
+            "spread": 0
+          }
+        },
+        "2": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 17,
+            "color": "#00000024",
+            "offsetX": 0,
+            "offsetY": 12,
+            "spread": 0
+          }
+        },
+        "description": null,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:16fcb168b39479f55b1a2887c6b9ebcb8237d86b,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "16 dp": {
+        "0": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 10,
+            "color": "#00000033",
+            "offsetX": 0,
+            "offsetY": 8,
+            "spread": 0
+          }
+        },
+        "1": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 30,
+            "color": "#0000001f",
+            "offsetX": 0,
+            "offsetY": 6,
+            "spread": 0
+          }
+        },
+        "2": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 24,
+            "color": "#00000024",
+            "offsetX": 0,
+            "offsetY": 16,
+            "spread": 0
+          }
+        },
+        "description": null,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:d28f24a73459558548c9b465e2391ebb93345e94,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "24 dp": {
+        "0": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 15,
+            "color": "#00000033",
+            "offsetX": 0,
+            "offsetY": 11,
+            "spread": 0
+          }
+        },
+        "1": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 46,
+            "color": "#0000001f",
+            "offsetX": 0,
+            "offsetY": 9,
+            "spread": 0
+          }
+        },
+        "2": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 38,
+            "color": "#00000024",
+            "offsetX": 0,
+            "offsetY": 24,
+            "spread": 0
+          }
+        },
+        "description": null,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:1f3a52557b8599495548f669e539506c502f972c,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "09 dp": {
+        "0": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 6,
+            "color": "#00000033",
+            "offsetX": 0,
+            "offsetY": 5,
+            "spread": 0
+          }
+        },
+        "1": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 16,
+            "color": "#0000001f",
+            "offsetX": 0,
+            "offsetY": 3,
+            "spread": 0
+          }
+        },
+        "2": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 12,
+            "color": "#00000024",
+            "offsetX": 0,
+            "offsetY": 9,
+            "spread": 0
+          }
+        },
+        "description": null,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:dad9da0a35374bb74c43e079eb36d6d8d7da739e,",
+            "exportKey": "effect"
+          }
+        }
+      }
+    }
+  },
+  "typography": {
+    "m2": {
+      "headline": {
+        "headline 1": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 96
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Md"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -1.5
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 112
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "headline 2": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 60
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Md"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.5
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 72
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "headline 3": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 48
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Md"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 56
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "headline 4": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 34
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Md"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 36
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "headline 5": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 24
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Md"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0.18
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "headline 6": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 20
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Md"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0.15
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "subtitle 1": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 16
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Md"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0.15
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "subtitle 2": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 14
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Md"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0.1
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        }
+      },
+      "body": {
+        "body 1": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 16
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Rg"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0.5
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "body 2": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 14
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Rg"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0.25
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 20
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "caption": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 12
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Rg"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0.4
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 16
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "overline": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 10
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Md"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 1.5
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 16
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "uppercase"
+          }
+        },
+        "divider  1": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 14
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Thin"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 20
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "divider 2": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 14
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Thin"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 18
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 9
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "divider 3": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 12
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Thin"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 16
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 8
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        }
+      },
+      "label": {
+        "medium": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 14
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Md"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 16.8
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "small": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 12
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Md"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 16
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 8
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "large": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 16
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Univers Next for HSBC W29 Md"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        }
+      }
+    }
+  }
+}

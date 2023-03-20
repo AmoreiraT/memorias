@@ -1,0 +1,52 @@
+{
+    "generatedAt": 1677180219633,
+    "hasCustomBabel": false,
+    "hasCustomWebpack": false,
+    "hasStaticDirs": false,
+    "hasStorybookEslint": true,
+    "refCount": 0,
+    "packageManager": {
+        "type": "pnpm",
+        "version": "7.18.2"
+    },
+    "framework": {
+        "name": "@storybook/react-vite",
+        "options": {}
+    },
+    "builder": "@storybook/builder-vite",
+    "renderer": "@storybook/react",
+    "storybookVersion": "7.0.0-beta.44",
+    "storybookVersionSpecifier": "7.0.0-beta.44",
+    "language": "typescript",
+    "storybookPackages": {
+        "@storybook/blocks": {
+            "version": "7.0.0-beta.44"
+        },
+        "@storybook/react": {
+            "version": "7.0.0-beta.44"
+        },
+        "@storybook/react-vite": {
+            "version": "7.0.0-beta.44"
+        },
+        "@storybook/testing-library": {
+            "version": "0.0.13"
+        },
+        "eslint-plugin-storybook": {
+            "version": "0.6.10"
+        },
+        "storybook": {
+            "version": "7.0.0-beta.44"
+        }
+    },
+    "addons": {
+        "@storybook/addon-links": {
+            "version": "7.0.0-beta.44"
+        },
+        "@storybook/addon-essentials": {
+            "version": "7.0.0-beta.44"
+        },
+        "@storybook/addon-interactions": {
+            "version": "7.0.0-beta.44"
+        }
+    }
+}
